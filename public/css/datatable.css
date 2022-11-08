@@ -1,0 +1,43 @@
+#ts{background-color: black;
+color:red;}
+nav{background:black; color :white; display: flex; justify-content: space-between;}
+nav .mainMenu{display:flex; list-style: none;}
+nav .mainMenu li a{display: inline-block; padding:15px; text-decoration: none; text-transform: uppercase; color:white; font-size: 1.5rem;}
+nav .mainMenu li a:hover{background: orangered;}
+nav .openMenu{font-size: 2rem; margin:20px; display: none; cursor:pointer;}
+nav .mainMenu .closeMenu , .icons i{font-size: 2rem; display: none; cursor: pointer;}
+.fa-instagram-square{color:powderblue;}
+nav .logo{margin:6px; font-size: 25px; cursor: pointer;}
+@media(max-width:800px){
+    nav .mainMenu { height:100vh; position:fixed; top:0; right:0; left:0; z-index:10; flex-direction: column; justify-content: center;align-items: center;background: black; transition: top 1s ease; display: none; }
+    nav .mainMenu .closeMenu{display: block; position: absolute; top:20px; right:20px;}
+    nav .openMenu{display: block;}
+    nav .mainMenu li a:hover{background: none; color: orangered; font-size: 1.6rem;}
+    .icons i{display: inline-block; padding: 12px;}
+}
+
+@media screen and (max-width: 992px) {
+    body{
+      background-color: blue;
+    }
+ #ts{
+    width:700px !important;
+
+    overflow: scroll !important;
+}
+
+  }
+  @media screen and (max-width: 735px) {
+    body {
+      background-color: yellow;
+    }
+#ts{
+    width:300px !important;
+
+    overflow: scroll !important;
+justify-content: space-between;
+}
+
+  }
+
+

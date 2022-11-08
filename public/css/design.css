@@ -1,0 +1,23 @@
+.section1{
+    height:200px;
+    background-color: yellow;
+}
+.section2{
+    height:500px;
+    background-color: goldenrod;
+}
+.section3{
+    height:200px;
+    background-color: blueviolet;
+}
+
+.section1heading{margin: 0 50%;
+    background: aliceblue;
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+

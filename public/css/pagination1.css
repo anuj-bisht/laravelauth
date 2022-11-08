@@ -1,0 +1,24 @@
+
+.container ul{
+    display: flex;
+    flex-direction: row;
+
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+background: #dde1e7;
+}
+.pagination a {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    float: left;
+    transition: all ease 0.5s;
+}
+.pagination a:hover {
+    background-color:white;
+    color: black;
+    padding: 5px;
+    float: left;
+
+}
